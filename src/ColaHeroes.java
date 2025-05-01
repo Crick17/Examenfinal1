@@ -14,6 +14,7 @@ public class ColaHeroes {
         cola.offer(new Heroe("Iron Man", "Humano", 85, "Tecnología-Millonario-Filantropo"));
         cola.offer(new Heroe("Thor", "Alienígena", 95, "Trueno-Dios del trueno"));
         cola.offer(new Heroe("Erick", "Mutante", 88, "Telepatía a objetos metalicos"));
+        cola.offer(new Heroe("Megatron", "Robot", 120, "Armas potentes"));
     }
 
     public void mostrarHeroesConPoderReal() {
