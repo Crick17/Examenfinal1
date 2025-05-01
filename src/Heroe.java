@@ -6,9 +6,9 @@ public class Heroe {
 
     public Heroe() {
         this.nombre = "Spider-Man";
-        this.raza = "Humano";
-        this.nivelPoder = 80;
-        this.habilidad = "Agilidad";
+        this.raza = "Meta-Humano";
+        this.nivelPoder = 100;
+        this.habilidad = "Reflexos-Lanzatelarañas";
     }
 
     public Heroe(String nombre, String raza, int nivelPoder, String habilidad) {
