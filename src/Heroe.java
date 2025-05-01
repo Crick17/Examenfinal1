@@ -6,7 +6,7 @@ public class Heroe {
 
     public Heroe() {
         this.nombre = "Spider-Man";
-        this.raza = "Meta-Humano";
+        this.raza = "Humano";
         this.nivelPoder = 80;
         this.habilidad = "Agilidad";
     }
