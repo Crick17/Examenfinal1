@@ -8,6 +8,13 @@ public class ColaHeroes {
         cola = new LinkedList<>();
     }
 
+    public void encolarHeroes() {
+        cola.offer(new Heroe());
+        cola.offer(new Heroe("Wolverine", "Mutante", 90, "Regeneración"));
+        cola.offer(new Heroe("Iron Man", "Humano", 85, "Tecnología"));
+        cola.offer(new Heroe("Thor", "Alienígena", 95, "Trueno"));
+        cola.offer(new Heroe("Jean Grey", "Mutante", 88, "Telepatía"));
+    }
 
     public void mostrarHeroesConPoderReal() {
         for (Heroe h : cola) {
