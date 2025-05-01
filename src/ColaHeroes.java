@@ -10,10 +10,10 @@ public class ColaHeroes {
 
     public void encolarHeroes() {
         cola.offer(new Heroe());
-        cola.offer(new Heroe("Wolverine", "Mutante", 90, "Regeneración"));
-        cola.offer(new Heroe("Iron Man", "Humano", 85, "Tecnología"));
-        cola.offer(new Heroe("Thor", "Alienígena", 95, "Trueno"));
-        cola.offer(new Heroe("Jean Grey", "Mutante", 88, "Telepatía"));
+        cola.offer(new Heroe("Wolverine", "Mutante", 90, "Regeneración-Garras de adamaintuim "));
+        cola.offer(new Heroe("Iron Man", "Humano", 85, "Tecnología-Millonario-Filantropo"));
+        cola.offer(new Heroe("Thor", "Alienígena", 95, "Trueno-Dios del trueno"));
+        cola.offer(new Heroe("Erick", "Mutante", 88, "Telepatía a objetos metalicos"));
     }
 
     public void mostrarHeroesConPoderReal() {
