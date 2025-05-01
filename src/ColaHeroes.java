@@ -33,8 +33,7 @@ public class ColaHeroes {
             }
             double poderReal = h.getNivelPoder() * multiplicador;
 
-            System.out.println("Los 6 mejores heroes del ultimo año :)");
-            System.out.println("----------------------------------------" );
+
             System.out.println("Nombre : " + h.getNombre());
             System.out.println("Raza: " + h.getRaza());
             System.out.println("Nivel Poder: " + h.getNivelPoder());
